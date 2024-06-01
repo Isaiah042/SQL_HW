@@ -12,8 +12,6 @@ mysql> show tables;
 +-----------------+
 3 rows in set (0.00 sec)
 
-mysql> Select COUNT(*) AS cities from city where country ='USA';
-ERROR 1054 (42S22): Unknown column 'country' in 'where clause'
 mysql> Select COUNT(*) AS cities from city where CountryCode='USA';
 +--------+
 | cities |
