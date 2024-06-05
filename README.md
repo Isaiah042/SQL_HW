@@ -1,5 +1,5 @@
 # SQL_HW
-
+```
  use world
 Database changed
 mysql> show tables;
@@ -567,3 +567,5 @@ mysql> select Name from city where CountryCode IN ('CZE','PRI','EST');
 | Toa Baja         |
 +------------------+
 21 rows in set (0.00 sec)
+
+```
